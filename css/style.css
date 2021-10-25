@@ -1,0 +1,173 @@
+/* Fonts section Start */
+@font-face {
+    src: url(../fonts/Ubuntu-Light.ttf);
+    font-family: Ubuntu-Light;
+}
+@font-face {
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+    font-family: PlayfairDisplay-Regular;
+}
+@font-face {
+    src: url(../fonts/PlayfairDisplay-Italic.ttf);
+    font-family: PlayfairDisplay-Italic;
+}
+@font-face {
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+    font-family: PlayfairDisplay-Bold;
+}
+@font-face {
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+    font-family: PlayfairDisplay-Black;
+}
+@font-face {
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+    font-family: PlayfairDisplay-Black;
+}
+/* Fonts section end */
+/* Common Section Start */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* Common Section End */
+/* Header Section Start */
+header {
+    padding: 20px 0;
+}
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.logo {
+    width: 10%;
+    margin-top: 6px;
+    float: left;
+    /* border: 1px solid yellow; */
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    width: 70%;
+    float: right;
+    /* border: 1px solid #5900ff; */
+}
+.menu ul {
+    margin: 0;
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin: 10px 60px;
+    padding: 2px  2px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+/* Header Section End */
+/* Banner Section Start  */
+.banner {
+    padding: 20px 0;
+}
+.banner_wrapper {
+    /* border: 1px solid red; */
+}
+.banner_wrapper img {
+    width: 100%;
+}
+/* Banner Section End  */
+/* Perfect Section Start */
+.perfect {
+    padding: 55px 0 90px;
+}
+.extra_wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.tagline {
+    margin: 0;
+    padding: 25px 0;
+    font-family: Ubuntu-Light;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.title {
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.common_p_text {
+    margin: 0;
+    line-height: 30px;
+}
+.perfect_b_tagline {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+/* Perfect Section End */
+/* Top Blog Section Start */
+.top_blog {
+    padding: 60px 0 120px;
+}
+.top_bolg_wrapper {}
+.single_blog {
+    width: 45%;
+    margin-right:10%;
+    float: left;
+    /* border: 1px solid blue; */
+}
+.single_blog:nth-child(even) {
+    margin-right: 0;
+}
+.single_blog:nth-child(1),
+.single_blog:nth-child(2) {
+    margin-bottom: 100px;
+}
+.blog_image {
+    opacity: 0.3;
+    transition: 0.4s;
+}
+.blog_image img {
+    width: 100%;
+    transition: 0.4s;
+}
+.single_blog:hover .blog_image {
+    opacity: 1;
+}
+/* Top Blog Section End */
+/* Newsletter Section Start */
+.newsletter {
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+.news_wrapper {
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 0;
+    border: 1px solid blue;
+}
+/* Newsletter Section End */
+
