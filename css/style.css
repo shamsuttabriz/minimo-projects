@@ -204,23 +204,23 @@ header {
     padding-bottom: 100px;
 }
 .loadmore_wrapper {
-    padding: 10px 20px;
-    width: 14%;
-    margin: 0 auto;
+    margin: 50px 0;
     text-align: center;
-    border: 1px solid #000;
-    
 }
-.loadmore_wrapper a{
-    display: inline-block;
+.load_btn {
+    padding: 10px 20px;
     font-size: 32px;
     text-decoration: none;
     color: #626262;
-    border-bottom: 1px solid transparent;
-    transition: 0.4s;
+    border: 1px solid #626262;
+    border-radius: 2px;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
 }
-.loadmore_wrapper:hover a {
-    border-bottom: 1px solid #626262;
+.load_btn:hover {
+    color: #fff;
+    background-color: #626262;
 }
 /* Load More Section End */
 /* Footer Section start */
